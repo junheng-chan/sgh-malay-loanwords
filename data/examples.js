@@ -15,6 +15,7 @@ window.EXAMPLES = [
   category: "direct",
   speaker: "HF7",
   context: "isolated",
+  malayAudio: "audio/MF1_iso_kampung_3.wav",
   audio: "audio/HF7_iso_kampung_1.wav",
   spectrogram: "spectrograms/HF7_iso_kampung_1.png",
   note: "Direct mapping."
@@ -24,11 +25,13 @@ window.EXAMPLES = [
   word: "SgH [baɾu]",
   source: "Malay baru /baru/",
   correspondence: [
+    "Malay /b/ → SgH [b]",
     "Malay /r/ → SgH [l] ~ [ɾ]",
   ],
   category: "variable",
   speaker: "HF7",
   context: "natural utterance",
+  malayAudio: "audio/MF1_iso_baru_3.wav",
   audio: "audio/HF7_nat_baru_c_1.wav",
   spectrogram: "spectrograms/HF7_nat_baru_c_1.png",
   note: "Tap-like /ɾ/ variant of the usual /l/ lateral-like realisation, coded from burst-like spectrogram evidence."
@@ -45,6 +48,7 @@ window.EXAMPLES = [
   category: "adaptive",
   speaker: "HF9",
   context: "isolated",
+  malayAudio: "audio/MF1_iso_manggis_3.wav",
   audio: "audio/HF9_iso_manggis_1.wav",
   spectrogram: "spectrograms/HF9_iso_manggis_1.png",
   note: "Stop /g/ assimilated in nasal cluster:; final /s/ adapted as glottal coda, visible via creaky vowel."
