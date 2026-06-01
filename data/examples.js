@@ -43,7 +43,7 @@ window.EXAMPLES = [
   correspondence: [
     "Malay /m/ → SgH [m]",
     "Malay /ŋg/ → SgH [ŋ]",
-    "Malay final /s/ → SgH [ʔ]"
+    "Malay final /s/ → SgH [t] ~ [ʔ]"
   ],
   category: "adaptive",
   speaker: "HF9",
