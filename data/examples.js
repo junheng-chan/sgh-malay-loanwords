@@ -51,6 +51,6 @@ window.EXAMPLES = [
   malayAudio: "audio/MF1_iso_manggis_3.wav",
   audio: "audio/HF9_iso_manggis_1.wav",
   spectrogram: "spectrograms/HF9_iso_manggis_1.png",
-  note: "Stop /g/ assimilated in nasal cluster:; final /s/ adapted as glottal coda, visible via creaky vowel."
+  note: "Stop /g/ assimilated in nasal cluster; final /s/ adapted as glottal coda, visible via creaky vowel."
 },
 ];
