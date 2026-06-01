@@ -4,6 +4,21 @@
 
 window.EXAMPLES = [
   {
+  id: "HF7_iso_kampung_1",
+  word: "kampung",
+  source: "Malay kampung",
+  correspondence: [
+    "Malay /k/ → SgH [k]",
+    "Malay /m/ → SgH [m]",
+    "Malay /ŋ/ → SgH [ŋ]"
+  ],
+  category: "direct",
+  speaker: "HF7",
+  audio: "audio/HF7_iso_kampung_1.wav",
+  spectrogram: "spectrograms/HF7_iso_kampung_1.png",
+  note: "Direct mapping."
+},
+  {
     malayLemma: "baru",
     sghForm: "balu",
     gloss: "just; recently",
