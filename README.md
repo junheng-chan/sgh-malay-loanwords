@@ -7,7 +7,7 @@ Supplementary webpage for the poster **“Consonant Correspondences of Malay Loa
 **Venue:** National University of Singapore  
 **Date:** 2 June 2026
 
-This page presents selected audio clips and spectrograms from a preliminary study of how Malay consonants are realised in Singaporean Hokkien loanwords. The examples illustrate direct correspondences, adaptive mappings, variable realisations, and cases requiring further analysis.
+This page presents selected audio clips and spectrograms from a preliminary study of how Malay consonants are realised in Singaporean Hokkien loanwords. The examples illustrate direct correspondences, adaptive mappings, and variable realisations.
 
 ## Poster summary
 
@@ -15,10 +15,11 @@ Malay and Hokkien have been in long-term contact across Southeast Asia. This pro
 
 ## Categories
 
+The examples are grouped first into **direct** and **non-direct** correspondences. Non-direct correspondences are further divided into variable and adaptive patterns.
+
 - **Direct:** the Malay consonant has a close equivalent in Singaporean Hokkien.
-- **Adaptive:** the Malay consonant is adapted to a nearby Singaporean Hokkien category.
-- **Variable:** different speakers or tokens show different realisations.
-- **Uncertain:** the token requires further analysis.
+- **Variable:** non-direct mapping involving nearby liquid/coronal realisations, often varying across speakers or tokens.
+- **Adaptive:** non-direct mapping involving stronger structural reshaping, such as cluster simplification, deletion, or coda adaptation.
 
 ## Data note
 
