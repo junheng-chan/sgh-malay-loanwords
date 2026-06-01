@@ -5,8 +5,8 @@
 window.EXAMPLES = [
   {
   id: "HF7_iso_kampung_1",
-  word: "kampung",
-  source: "Malay kampung",
+  word: "SgH [kampɔŋ]",
+  source: "Malay kampung /kampoŋ/",
   correspondence: [
     "Malay /k/ → SgH [k]",
     "Malay /m/ → SgH [m]",
@@ -14,60 +14,39 @@ window.EXAMPLES = [
   ],
   category: "direct",
   speaker: "HF7",
+  context: "isolated",
   audio: "audio/HF7_iso_kampung_1.wav",
   spectrogram: "spectrograms/HF7_iso_kampung_1.png",
   note: "Direct mapping."
 },
   {
-    malayLemma: "baru",
-    sghForm: "balu",
-    gloss: "just; recently",
-    target: "Malay /r/",
-    realisation: "[l]",
-    speaker: "S1",
-    context: "carrier sentence",
-    status: "variable",
-    note: "Lateral-like token; compare with the tap-like example below.",
-    audio: "audio/baru_S1_lateral.mp3",
-    spectrogram: "spectrograms/baru_S1_lateral.png"
-  },
+  id: "HF7_nat_baru_c_1",
+  word: "SgH [baɾu]",
+  source: "Malay baru /baru/",
+  correspondence: [
+    "Malay /r/ → SgH [l] ~ [ɾ]",
+  ],
+  category: "variable",
+  speaker: "HF7",
+  context: "natural utterance",
+  audio: "audio/HF7_nat_baru_c_1.wav",
+  spectrogram: "spectrograms/HF7_nat_baru_c_1.png",
+  note: "Tap-like /ɾ/ variant of the usual /l/ lateral-like realisation, coded from burst-like spectrogram evidence."
+},
   {
-    malayLemma: "baru",
-    sghForm: "balu / baru-like",
-    gloss: "just; recently",
-    target: "Malay /r/",
-    realisation: "[ɾ]",
-    speaker: "S3",
-    context: "isolation",
-    status: "variable",
-    note: "Brief tap-like realisation; preliminary coding based on burst-like vertical spectrogram evidence.",
-    audio: "audio/baru_S3_tap.mp3",
-    spectrogram: "spectrograms/baru_S3_tap.png"
-  },
-  {
-    malayLemma: "suka",
-    sghForm: "suka-like form",
-    gloss: "like",
-    target: "initial /s/",
-    realisation: "[s]",
-    speaker: "S2",
-    context: "carrier sentence",
-    status: "direct",
-    note: "Relatively stable direct correspondence in onset position.",
-    audio: "audio/suka_S2.mp3",
-    spectrogram: "spectrograms/suka_S2.png"
-  },
-  {
-    malayLemma: "jamban",
-    sghForm: "replace with SgH form",
-    gloss: "toilet",
-    target: "Malay orthographic j /dʒ/",
-    realisation: "[dz]-like affricate",
-    speaker: "S4",
-    context: "isolation",
-    status: "adaptive",
-    note: "Affricate-like adaptation; replace this with your actual coding.",
-    audio: "audio/jamban_S4.mp3",
-    spectrogram: "spectrograms/jamban_S4.png"
-  }
+  id: "HF9_iso_manggis_1",
+  word: "[maŋɛʔ]",
+  source: "Malay manggis /maŋgis/",
+  correspondence: [
+    "Malay /m/ → SgH [m]",
+    "Malay /ŋg/ → SgH [ŋ]",
+    "Malay final /s/ → SgH [ʔ]"
+  ],
+  category: "adaptive",
+  speaker: "HF9",
+  context: "isolated",
+  audio: "audio/HF9_iso_manggis_1.wav",
+  spectrogram: "spectrograms/HF9_iso_manggis_1.png",
+  note: "Stop /g/ assimilated in nasal cluster:; final /s/ adapted as glottal coda, visible via creaky vowel."
+},
 ];
