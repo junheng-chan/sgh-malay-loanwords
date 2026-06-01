@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Malay Loanwords in Singaporean Hokkien</title>
+  <meta name="description" content="Supplementary audio and spectrogram examples for consonant correspondences of Malay loanwords in Singaporean Hokkien." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Poster supplementary materials</p>
+    <h1>Consonant Correspondences of Malay Loanwords in Singaporean Hokkien</h1>
+    <p class="meta">Chan Junheng &amp; Nur Amirah Hakim Binte Mustapha Kamal · Workshop: When Chinese Meets Southeast Asian Languages</p>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <div class="toolbar-title">
+        <h2>Selected examples</h2>
+        <p>Play each token while viewing the corresponding spectrogram.</p>
+      </div>
+      <div class="controls">
+        <input id="searchBox" type="search" placeholder="Search word, speaker, segment…" aria-label="Search examples" />
+        <select id="statusFilter" aria-label="Filter by category">
+          <option value="">All</option>
+          <option value="direct">direct</option>
+          <option value="adaptive">adaptive</option>
+          <option value="variable">variable</option>
+          <option value="uncertain">uncertain</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="examplesGrid" class="examples-grid" aria-live="polite"></section>
+
+    <section class="footer-note">
+      <p><strong>Data note:</strong> selected preliminary examples. Speaker labels are anonymised. Please do not download, redistribute, or reuse the audio without permission.</p>
+      <p><strong>Acknowledgement:</strong> This research [IRB-2026-208] is part of the LanTERN project, supported by the Nanyang Assistant Professorship (NAP, 2024), Nanyang Technological University [Project ID: #024576-00001].</p>
+    </section>
+  </main>
+
+  <script src="data/examples.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
