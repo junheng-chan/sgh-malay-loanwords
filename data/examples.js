@@ -23,10 +23,10 @@ window.EXAMPLES = [
   {
   id: "HF7_nat_baru_c_1",
   word: "SgH [baɾu]",
-  source: "Malay baru /baru/",
+  source: "Malay baru /baɾu/",
   correspondence: [
     "Malay /b/ → SgH [b]",
-    "Malay /r/ → SgH [l] ~ [ɾ]",
+    "Malay /ɾ/ → SgH [l] ~ [ɾ]",
   ],
   category: "variable",
   speaker: "HF7",
@@ -34,12 +34,12 @@ window.EXAMPLES = [
   malayAudio: "audio/MF1_iso_baru_3.wav",
   audio: "audio/HF7_nat_baru_c_1.wav",
   spectrogram: "spectrograms/HF7_nat_baru_c_1.png",
-  note: "Tap-like /ɾ/ variant of the usual /l/ lateral-like realisation, coded from burst-like spectrogram evidence."
+  note: "Tap-like /ɾ/ variant of the lateral /l/ realisation, coded from burst-like spectrogram evidence."
 },
   {
   id: "HF9_iso_manggis_1",
   word: "[maŋɛʔ]",
-  source: "Malay manggis /maŋgis/",
+  source: "Malay manggs /maŋges/",
   correspondence: [
     "Malay /m/ → SgH [m]",
     "Malay /ŋg/ → SgH [ŋ]",
