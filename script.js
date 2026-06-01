@@ -39,8 +39,29 @@ function imageBlock(row) {
 }
 
 function audioBlock(row) {
-  if (!row.audio) return `<p class="no-audio">No audio clip</p>`;
-  return `<audio controls preload="none" src="${escapeHTML(row.audio)}">Audio unavailable</audio>`;
+  const malayAudio = row.malayAudio || row.sourceAudio || "";
+  const sghAudio = row.audio || row.sghAudio || "";
+
+  if (!malayAudio && !sghAudio) {
+    return `<p class="no-audio">No audio clip</p>`;
+  }
+
+  return `
+    <div class="audio-pair">
+      ${malayAudio ? `
+        <div class="audio-item">
+          <span class="audio-label">Malay source</span>
+          <audio controls preload="none" src="${escapeHTML(malayAudio)}">Audio unavailable</audio>
+        </div>
+      ` : ""}
+      ${sghAudio ? `
+        <div class="audio-item">
+          <span class="audio-label">SgH realisation</span>
+          <audio controls preload="none" src="${escapeHTML(sghAudio)}">Audio unavailable</audio>
+        </div>
+      ` : ""}
+    </div>
+  `;
 }
 
 function renderExamples() {
