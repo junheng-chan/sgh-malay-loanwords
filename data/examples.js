@@ -39,7 +39,7 @@ window.EXAMPLES = [
   {
   id: "HF9_iso_manggis_1",
   word: "[maŋɛʔ]",
-  source: "Malay manggs /maŋges/",
+  source: "Malay manggis /maŋges/",
   correspondence: [
     "Malay /m/ → SgH [m]",
     "Malay /ŋg/ → SgH [ŋ]",
