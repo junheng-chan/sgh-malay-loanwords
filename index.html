@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Malay Loanwords in Singaporean Hokkien</title>
+  <meta name="description" content="Interactive supplementary examples for consonant correspondences of Malay loanwords in Singaporean Hokkien." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Poster supplementary materials</p>
+      <h1>Consonant Correspondences of Malay Loanwords in Singaporean Hokkien</h1>
+      <p class="subtitle">Listen to selected tokens while viewing the corresponding spectrograms and annotations.</p>
+      <p class="meta">Chan Junheng · Nanyang Technological University · Preliminary dataset</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="notice">
+      <h2>Scope and data use</h2>
+      <p>
+        These are selected illustrative tokens from a preliminary dataset. Speaker labels are anonymised. Please do not download, redistribute,
+        or reuse the audio without permission. If consent does not allow public audio sharing, replace clips with spectrograms only or make the repository private.
+      </p>
+    </section>
+
+    <section class="intro-grid">
+      <article class="card">
+        <h2>How to use this page</h2>
+        <p>
+          Each card pairs a short audio clip with a spectrogram image, source form, Singaporean Hokkien realisation,
+          and a brief annotation. Use the filters to focus on direct, adaptive, variable, or uncertain correspondences.
+        </p>
+      </article>
+      <article class="card key-card">
+        <h2>Legend</h2>
+        <div class="legend-row"><span class="pill direct">direct</span><span>close Malay–SgH match</span></div>
+        <div class="legend-row"><span class="pill adaptive">adaptive</span><span>mapped to nearest SgH category</span></div>
+        <div class="legend-row"><span class="pill variable">variable</span><span>different outputs across tokens/speakers</span></div>
+        <div class="legend-row"><span class="pill uncertain">uncertain</span><span>requires further checking</span></div>
+      </article>
+    </section>
+
+    <section class="toolbar card">
+      <div>
+        <h2>Selected examples</h2>
+        <p class="small">Replace the sample entries in <code>data/examples.js</code> with your actual tokens, audio, and spectrogram filenames.</p>
+      </div>
+      <div class="controls">
+        <input id="searchBox" type="search" placeholder="Search word, segment, speaker…" aria-label="Search examples" />
+        <select id="statusFilter" aria-label="Filter by status">
+          <option value="">All statuses</option>
+          <option value="direct">direct</option>
+          <option value="adaptive">adaptive</option>
+          <option value="variable">variable</option>
+          <option value="uncertain">uncertain</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="examplesGrid" class="examples-grid" aria-live="polite"></section>
+
+    <section class="card">
+      <h2>Extended materials</h2>
+      <ul>
+        <li><a href="data/correspondence-template.csv">Download correspondence table template (CSV)</a></li>
+        <li><a href="README.md">Read setup instructions</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: replace-with-your-email@ntu.edu.sg · Last updated: replace date</p>
+  </footer>
+
+  <script src="data/examples.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
